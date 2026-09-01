@@ -1,16 +1,30 @@
-## Hi there 👋
+Hi, I'm Kai.d 👋
 
-<!--
-**nabilg1/nabilg1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a student who is currently learning software development and building a strong foundation in programming.
 
-Here are some ideas to get you started:
+About me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🎓 Student and aspiring software developer
+
+💻 Working with PHP, JavaScript, and C++
+
+🌱 Currently improving my problem-solving and development skills
+
+🚀 Interested in turning ideas into useful, reliable projects
+
+Tech stack
+
+
+
+
+
+
+
+GitHub activity
+
+<p align="left">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=nabilg1&show_icons=true&hide_border=true&theme=transparent" alt="Kai.d's GitHub statistics" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nabilg1&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
+</p>
+
+<sub>Learning consistently, one commit at a time.</sub>
