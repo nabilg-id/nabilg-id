@@ -1,7 +1,7 @@
 # Nabil Gusfermanto
 
 <p align="center">
-  <img width="400" alt="Nabil Gusfermanto — hardware, software, learning" src="assets/profile.svg" />
+  <img width="400" alt="Nabil Gusfermanto" src="assets/header.png" />
 </p>
 
 <p align="center"><sub><em>
@@ -16,7 +16,7 @@ Build one component. Test it on the device. Keep what works, then improve the ne
 
 ## Now
 
-**Building ArahAman**: an ESP32-based smart cane project combining sensor inputs, spoken warnings, and web tools.
+**Building [ArahAman](https://github.com/nabilg1)**: an ESP32-based smart cane project combining sensor inputs, spoken warnings, and web tools.
 
 **Working on wireless audio**: uploading MP3 files into SPIFFS through an ESP32 web server and playing them through a Bluetooth speaker using A2DP. The audio prototype has been tested on my device.
 
@@ -33,81 +33,74 @@ stop           # Stop playback
 
 ---
 
-## Project Notes
+## Writing
 
-Three parts of the ArahAman audio prototype I have been working on.
+Notes on building the ArahAman smart cane, from the audio prototype to the web tools.
 
 <table>
   <tr>
-    <td width="33%" valign="top"><a href="#audio-storage"><img width="100%" src="assets/spiffs.svg" alt="Audio storage — browser uploads and persistent files" /></a></td>
-    <td width="33%" valign="top"><a href="#bluetooth-playback"><img width="100%" src="assets/bluetooth.svg" alt="Bluetooth audio — MP3 decoding and wireless playback" /></a></td>
-    <td width="33%" valign="top"><a href="#serial-controls"><img width="100%" src="assets/serial.svg" alt="Playback controls — select, adjust, stop, repeat" /></a></td>
+    <td width="33%" valign="top">
+      <a href="#audio-storage"><b>Audio Storage</b></a><br />
+      <img width="100%" src="assets/audio_storage.png" alt="Audio Storage" />
+      <br />
+    </td>
+    <td width="33%" valign="top">
+      <a href="#sensor-input"><b>Sensor Input</b></a><br />
+      <img width="100%" src="assets/sensor_input.png" alt="Sensor Input" />
+      <br />
+    </td>
+    <td width="33%" valign="top">
+      <a href="#web-tools"><b>Web Tools</b></a><br />
+      <img width="100%" src="assets/web_tools.png" alt="Web Tools" />
+      <br />
+    </td>
   </tr>
   <tr>
-    <td align="center"><b>Audio Storage</b><br /><sub>ESP32 web server · SPIFFS</sub></td>
-    <td align="center"><b>Bluetooth Playback</b><br /><sub>MP3 · PCM · A2DP</sub></td>
-    <td align="center"><b>Serial Controls</b><br /><sub>Track selection · Volume · Loop</sub></td>
+    <td align="center"><b>Audio Storage</b><br />SPIFFS · MP3 · Bluetooth A2DP</td>
+    <td align="center"><b>Sensor Input</b><br />Obstacle detection · spoken warnings</td>
+    <td align="center"><b>Web Tools</b><br />Browser upload · playback control</td>
   </tr>
 </table>
 
 ---
 
-## Selected Work
+## Open Source
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>ArahAman</b><br />
-      <sub>Smart cane project combining embedded hardware, spoken alerts, and web interfaces.</sub><br /><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&amp;label=focus&amp;message=esp32%20%7C%20assistive%20tech&amp;labelColor=0ea5e9&amp;color=111827" alt="ESP32 and assistive technology" />
+      <a href="https://github.com/nabilg1"><b>ArahAman</b></a><br />
+      <sub>ESP32 smart cane · sensors · spoken warnings · web tools</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=embedded%20%7C%20audio&labelColor=22c55e&color=111827" alt="focus embedded audio" /><br />
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/nabilg1/nabilg1"><b>Profile &amp; Learning</b></a><br />
-      <sub>My GitHub profile and an evolving record of what I build and learn.</sub><br /><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&amp;label=focus&amp;message=code%20%7C%20documentation&amp;labelColor=a855f7&amp;color=111827" alt="Code and documentation" />
+      <a href="https://github.com/nabilg1"><b>ESP32 Audio</b></a><br />
+      <sub>SPIFFS + Bluetooth A2DP playback prototype</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=hardware%20%7C%20firmware&labelColor=38bdf8&color=111827" alt="focus hardware firmware" /><br />
     </td>
   </tr>
 </table>
-
-<sub>Working with: ESP32 · Arduino · C/C++ · PHP · MySQL · Git · GitHub</sub>
 
 ---
 
 ## Highlights
 
-| Area | Progress |
+| Highlight | Detail |
 |---|---|
-| **Audio storage** | Uploaded four MP3 warnings through the ESP32 web interface and stored them in SPIFFS. |
-| **Bluetooth audio** | Tested MP3 playback from ESP32 to a Bluetooth speaker. |
-| **Interactive controls** | Built Serial Monitor commands for selecting tracks, adjusting volume, stopping, and looping. |
-| **Web development** | Working with PHP, MySQL, and cPanel deployment. |
-| **Next milestone** | Integrate sensor events with audio playback and test the combined system. |
+| **Smart Cane Prototype** | ArahAman: ESP32 + sensors + Bluetooth audio, from firmware to web interface |
+| **Hardware + Software** | Connecting firmware on the ESP32 with a browser-based control interface |
+| **Audio Pipeline** | SPIFFS file storage → Bluetooth A2DP playback → serial command control |
 
 ---
 
-## Notes
+## Sponsors
 
-<details>
-<summary><b>Explore the audio prototype</b></summary>
-
-### Audio storage
-
-The ESP32 creates a local Wi-Fi access point. A browser interface accepts MP3 uploads and stores them in SPIFFS for later playback.
-
-### Bluetooth playback
-
-The firmware reads an MP3, decodes it into PCM, converts mono audio to stereo, and sends it to the speaker using Bluetooth A2DP.
-
-### Serial controls
-
-Commands select the water, right, left, or front warning. Volume and looping can be changed from Serial Monitor during testing.
-
-</details>
+If any of this helps you with your own ESP32 or embedded projects, [sponsor the work](https://github.com/sponsors/nabilg1).
 
 ---
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=nabilg1&amp;theme=transparent&amp;hide_border=true&amp;ring=58a6ff&amp;fire=58a6ff&amp;currStreakLabel=58a6ff&amp;sideLabels=adbac7&amp;dates=adbac7&amp;currStreakNum=adbac7&amp;sideNums=adbac7" alt="GitHub streak statistics for nabilg1" height="165" />
+  <img src="https://streak-stats.demolab.com?user=nabilg1&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=adbac7&dates=adbac7&currStreakNum=adbac7&sideNums=adbac7" alt="GitHub streak stats for nabilg1" height="165" />
 </p>
 
 ---
