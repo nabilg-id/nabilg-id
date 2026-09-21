@@ -10,13 +10,13 @@ From firmware on an ESP32 to a web interface in the browser, I enjoy connecting 
 Build one component. Test it on the device. Keep what works, then improve the next part.
 </em></sub></p>
 
-**[Explore my work →](https://github.com/nabilg1?tab=repositories)**
+**[Explore my work →](https://github.com/PKL-2026?tab=repositories)**
 
 ---
 
 ## Now
 
-**Building [ArahAman](https://github.com/nabilg1)**: an ESP32-based smart cane project combining sensor inputs, spoken warnings, and web tools.
+**Building [tongkat tunanetra IoT](https://github.com/PKL-2026/2026_rayhan_tongkat_tunanentra_iot)**: an ESP32-based smart cane project combining sensor inputs, spoken warnings, and web tools.
 
 **Working on wireless audio**: uploading MP3 files into SPIFFS through an ESP32 web server and playing them through a Bluetooth speaker using A2DP. The audio prototype has been tested on my device.
 
@@ -69,14 +69,26 @@ Notes on building the ArahAman smart cane, from the audio prototype to the web t
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/nabilg1"><b>ArahAman</b></a><br />
+      <a href="https://github.com/PKL-2026/2026_rayhan_tongkat_tunanentra_iot"><b>tongkat tunanetra IoT</b></a><br />
       <sub>ESP32 smart cane · sensors · spoken warnings · web tools</sub><br />
       <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=embedded%20%7C%20audio&labelColor=22c55e&color=111827" alt="focus embedded audio" /><br />
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/nabilg1"><b>ESP32 Audio</b></a><br />
-      <sub>SPIFFS + Bluetooth A2DP playback prototype</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=hardware%20%7C%20firmware&labelColor=38bdf8&color=111827" alt="focus hardware firmware" /><br />
+      <a href="https://github.com/PKL-2026/2026_MuarifAmir_TimerPerlombaanRenang"><b>Timer Perlombaan Renang</b></a><br />
+      <sub>Swimming race timer · hardware · timing</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=hardware%20%7C%20timing&labelColor=38bdf8&color=111827" alt="focus hardware timing" /><br />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/PKL-2026/2026_Agil_Power_Tendangan"><b>Agil Power Tendangan</b></a><br />
+      <sub>Kick power measurement · sensor · embedded</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=sensor%20%7C%20embedded&labelColor=a855f7&color=111827" alt="focus sensor embedded" /><br />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/PKL-2026"><b>PKL-2026</b></a><br />
+      <sub>Organization for internship / collaborative projects</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=organization&labelColor=f59e0b&color=111827" alt="focus organization" /><br />
     </td>
   </tr>
 </table>
@@ -87,9 +99,10 @@ Notes on building the ArahAman smart cane, from the audio prototype to the web t
 
 | Highlight | Detail |
 |---|---|
-| **Smart Cane Prototype** | ArahAman: ESP32 + sensors + Bluetooth audio, from firmware to web interface |
+| **Smart Cane Prototype** | `tongkat tunanetra IoT`: ESP32 + sensors + Bluetooth audio, from firmware to web interface |
+| **Swimming Timer** | `Timer Perlombaan Renang`: race timing hardware |
+| **Kick Power** | `Agil Power Tendangan`: kick power measurement with sensors |
 | **Hardware + Software** | Connecting firmware on the ESP32 with a browser-based control interface |
-| **Audio Pipeline** | SPIFFS file storage → Bluetooth A2DP playback → serial command control |
 
 ---
 
@@ -107,7 +120,7 @@ If any of this helps you with your own ESP32 or embedded projects, [sponsor the 
 
 <p align="center">
   <a href="https://github.com/nabilg1">GitHub</a> ·
-  <a href="https://github.com/nabilg1?tab=repositories">Repositories</a>
+  <a href="https://github.com/PKL-2026?tab=repositories">Repositories</a>
 </p>
 
 ---
